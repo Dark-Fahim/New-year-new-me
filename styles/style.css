@@ -33,10 +33,12 @@ a{
     padding: 20px 25px;  
 }
 .banner{
+    width: 100vw ;
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
+    background-size: cover;
+    
 }
 .banner-container{
     display: flex;
@@ -145,10 +147,12 @@ a{
     height: 300px;
 } */
 
-.second-banner-container{
+.second-banner{
     background-image: url('../images/watch.png'), linear-gradient(45deg, #005FAC , rgba(0, 95, 172, 0.00));
     background-repeat: no-repeat;
+    background-blend-mode: overlay;
     background-position: center;
+    background-size: cover;
     border-radius: 8px;
     height: 300px;
     margin-bottom: 130px;
